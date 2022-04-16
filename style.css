@@ -28,6 +28,13 @@ body {
 .decks {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 }
 
 .container {
@@ -36,7 +43,14 @@ body {
 
 .midcontainer {
     display: flex;
+    justify-content: space-between;
 
+}
+
+.caption {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .signup {
