@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.block1, .footer{
+    background-color: #1F2937;
+    display: flex;
+}
+
+.footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header{
+    display: flex;
+
+}
+
+.links{
+    display: flex;
+}
+
+.decks {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+}
+
+.midcontainer {
+    display: flex;
+
+}
+
+.signup {
+    display: flex;
+    background-color: #3882F6;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
