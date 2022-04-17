@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin: 0px;
+    min-height: 100vh;
 }
 
 .block1, .footer{
@@ -35,6 +37,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items:center;
+    width: 270px;
+}
+
+.description {
+    text-align: center;
 }
 
 .container {
@@ -44,7 +51,8 @@ body {
 .midcontainer {
     display: flex;
     justify-content: space-between;
-
+    flex: 1;
+    gap: 16px;
 }
 
 .caption {
@@ -71,4 +79,9 @@ body {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+}
+
+img {
+    width: 270px;
+    height: auto;
 }
