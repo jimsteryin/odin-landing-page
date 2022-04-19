@@ -11,6 +11,10 @@ body {
     display: flex;
 }
 
+.block1{
+    flex-direction: column;
+}
+
 .footer{
     flex-direction: column;
     justify-content: center;
@@ -22,7 +26,7 @@ body {
     display: flex;
     color: #F9FAF8;
     font-size: 24px;
-
+    justify-content: space-between;
 }
 
 .title_content{
@@ -52,6 +56,7 @@ li a{
     align-items: center;
     gap: 20px;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .card{
