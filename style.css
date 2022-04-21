@@ -36,14 +36,21 @@ body {
     margin-bottom: 30px;
 }
 
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+
 .head_button{
     background-color:#3882F6;
     color: #F9FAF8;
-
+    width: fit-content;
+    margin-top: 10px;
 }
 
 .title_content{
     display: flex;
+    justify-content: space-between;
 }
 
 .main_text{
@@ -89,6 +96,7 @@ li a{
     display: flex;
     flex-direction: column;
     max-width: 300px;
+    gap: 6px;
 }
 
 .intro_text{
