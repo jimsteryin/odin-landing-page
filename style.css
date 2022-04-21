@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
     max-width: 1000px;
     margin: auto;
+    background-color:black;
 }
 
 .block1, .footer{
@@ -78,6 +79,7 @@ li a{
     gap: 20px;
     padding: 20px;
     flex-wrap: wrap;
+    background-color: white;
 }
 
 .card{
@@ -128,6 +130,7 @@ li a{
     background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
+    padding: 50px 100px 50px 100px;
 }
 
 .quote-text{
@@ -135,6 +138,14 @@ li a{
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+}
+
+.quote-author{
+    font-size: 30px;
+    font-weight: bold;
+    color: #1F2937;
+    align-self: flex-end;
+    padding-right: 50px;
 }
 
 .hero{
